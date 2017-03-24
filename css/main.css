@@ -9,6 +9,32 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
+body {
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+button {
+  color: #fff;
+}
+
+button:hover {
+  background-color: #f2f2f2;
+}
+
+legend {
+  color: #000;
+}
+
+@media only screen and (min-width: 60em) {
+
+  body {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
 }
